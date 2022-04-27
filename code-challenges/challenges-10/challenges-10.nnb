@@ -24,21 +24,9 @@
         {
             "language": "javascript",
             "source": [
-                "let arr =[1, 6, 5, 6, 4, 6, 6]\nlet max = arr[0]\nlet counter = 0\nfor (let i = 0 ; i<arr.length;i++){\n    if (arr[i] > max ){\n        max = arr[i]  \n    }\n    else if (arr[i] == max){\n        counter++;\n    }\n}\n\nconsole.log(counter); "
+                "function birthdayCakeCandles(candles) {\n    // Write your code here\n    let max = arr[0]\n    let result = 0\n    for (let i = 0 ; i<arr.length;i++){\n    if (arr[i] > max ){\n        max = arr[i]\n        \n        if(arr[i]==max){\n        \n            result++;\n         }     \n    }\n}\nreturn result\n}\n\n"
             ],
-            "outputs": [
-                {
-                    "items": [
-                        {
-                            "mime": "application/vnd.code.notebook.stdout",
-                            "value": [
-                                "4",
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "outputs": []
         },
         {
             "language": "markdown",
